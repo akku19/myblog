@@ -4,6 +4,8 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
+import Slider from './Slider';
+import App from './App';
 import {
   BrowserRouter as Router,
   Route
@@ -13,6 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Header />
+      <App />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
