@@ -1,0 +1,17 @@
+header.main_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle; 
+}
+header .logo {
+    width: 30%;
+}
+header .menu {
+    width: 70%;
+}
+header .logo img {
+    width: 100%;
+    max-width: 80px;
+}
