@@ -1,8 +1,7 @@
 import logo from './logo.png';
 import React from "react";
 import ReactDOM from "react-dom";
-import Menu from './Menu';
-
+import Navigation from './Navigation';
 function Header() {
   return (
 
@@ -12,10 +11,9 @@ function Header() {
       <div className="logo">
           <img src={logo} className="" alt="logo" />
       </div>
-      <div className="menu">
-        <Menu />
-      </div>
-      
+      <div className="menu">     
+              <Navigation /> 
+      </div>          
     </header>
    </div>
    </div>
