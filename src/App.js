@@ -5,6 +5,7 @@ import About from './About';
 import Contact from './Contact';
 import NotFound from './NotFound'
 import Header from './Header';
+import Content  from './Content';
 
 const App = () => {
   return (
@@ -12,17 +13,12 @@ const App = () => {
     <Header />
     <div className="contents">
      <Routes>
-        <Route path="/" exact element={<About />} /> 
-        <Route path="/about" exact   element={<Contact />} /> 
+        <Route path="/" exact element={<Content />} /> 
+        <Route path="/about" exact   element={<About />} /> 
         <Route path="*" element={<NotFound/>}/>
        </Routes>
      </div>
     </>
   )
 }
-
-App.propTypes = {
-
-}
-
-export default App
+export default App ;
