@@ -3,6 +3,7 @@ import React from 'react'
 
 const About = () => {
     return (
+<<<<<<< HEAD
     	<div className="container">
         <div className="about-akash">
             <div className="akash-img">
@@ -21,6 +22,12 @@ const About = () => {
 
             </div>
         </div>
+=======
+        <div>
+
+            About page
+
+>>>>>>> c0ce8d23dd819db8e3ec8151b241137d222f7dc9
         </div>
     )
 }
