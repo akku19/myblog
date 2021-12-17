@@ -9,7 +9,7 @@ const About = () => {
                <img src={about} className="" alt="about" />  
             </div>
             <div className="akash-details">
-                <h3>Akash Sen (senier Developer)</h3>
+                <h3>Akash Sen (senier Developer) </h3>
                 
                 <h2>I am a Creative Software Developer from India.</h2>
                
