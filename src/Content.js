@@ -16,17 +16,17 @@ function Content() {
            <h3>My Name is <span>Akash Sen</span></h3>
            <h2>I am a Creative <span>Software Developer.</span></h2>
            <p>I'm working on a professional, visually sophisticated and technologically proficeint, responsive and multi-functional Wordpress Website imroz. </p>
-           <a className="contact-me-btn" href="#">Contact Me</a>
+           <a href="https://wa.me/8770562180" className="contact-me-btn" target="_blank">Contact Me</a>
 
            <div className="social_media">
              <ul className="">
                <li>
-	               <a href="">
+	               <a href="https://www.facebook.com/akash.sen.108/">
 	               <FontAwesomeIcon icon={faFacebook} />
 	               </a>
                </li>
                <li>
-	               <a href="">
+	               <a href="https://www.linkedin.com/in/akash-sen-7bb874b8/">
 	               <FontAwesomeIcon icon={faLinkedin} />
 	               </a>
                </li>
@@ -36,7 +36,7 @@ function Content() {
 	               </a>
                </li>
                <li>
-	               <a href="">
+	               <a href="https://wa.me/8770562180">
 	               <FontAwesomeIcon icon={faWhatsapp} />
 	               </a>
                </li>
