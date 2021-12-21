@@ -6,6 +6,8 @@ import Contact from './Contact';
 import NotFound from './NotFound'
 import Header from './Header';
 import Content from './Content'
+import Mapfunction from './Mapfunction';
+import Imagecrop from './Imagecrop';
 
 const App = () => {
   return (
@@ -16,6 +18,10 @@ const App = () => {
         <Route path="/" exact element={<Content />} /> 
         <Route path="/about" exact   element={<About />} /> 
         <Route path="*" element={<NotFound/>}/>
+        <Route path="/map" element={<Mapfunction />} />
+        <Route path="/croping" element={<Imagecrop />} />
+        
+    
        </Routes>
      </div>
     </>
