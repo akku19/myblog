@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 body {
   margin: 0;
@@ -93,10 +94,11 @@ header .logo img {
     align-items: center;
     align-content: center;
     vertical-align: middle;
-    height: 88vh; 
+    /*height: 88vh; */
+    padding: 50px 0px;
 }
 .top_banner {
-    background-color: #dfe3e2;
+   /* background-color: #dfe3e2;*/
 }
 .banner_content {
     max-width: 600px;
@@ -115,8 +117,9 @@ header .logo img {
     padding-right: 25px;
 }
 .social_media {
-    position: absolute;
-    bottom: 10px;
+    /*position: absolute;*/
+    /* bottom: 10px; */
+    margin-top: 30px;
 }
 .social_media svg {
     font-size: 26px;
@@ -170,6 +173,299 @@ header .logo img {
     font-size: 15px;
     line-height: 26px;
 }
+.developer_pic img {
+    width: 100%;
+    display: block;
+    max-width: 70%;
+    margin: 5% auto;
+}
+
+.main_services {
+    width: 100%;
+    margin-top: 20px;
+        margin-bottom: 30px;
+}
+.single_service {
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
+    text-align: center;
+}
+.item-client {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    width: 100%;
+    padding: 50px 55px;
+    margin: 0 10px 80px;
+    box-shadow: 0 15px 30px 0 rgb(221 221 221 / 30%);
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.client_details {
+    width: 60%;
+    text-align: left;
+}
+.client_img {
+    width: 40%;
+}
+.client_say {
+    display: flex;
+    margin-top: 30px;
+}
+.subscription_box {
+    background: url(https://preview.colorlib.com/theme/satner/img/xsubscribe-bg.png.pagespeed.ic.61VKn8ti50.png) no-repeat center;
+    padding: 150px 0;
+    background-size: cover;
+    text-align: center;
+}
+.services h2, .testimonial_home h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 110%;
+}
+.services .sub_service,
+.testimonial_home .sub_service {
+    font-size: 15px;
+    line-height: 26px;
+    color: #848485;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.feature_item img {
+    width: 100%;
+    display: block;
+}
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+.feature_item h4 {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.feature_item p {
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0px 15px 15px;
+}
+.feature_item:hover {
+    box-shadow: 0 15px 30px rgb(77 87 222 / 30%);
+    background: #fff;
+        -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.feature_item {
+    background: #f9f9fd;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.client_img img {
+    width: 100%;
+    display: block;
+        max-width: 120px;
+}
+.client_details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 110%;
+}
+.client_details p {
+    font-size: 15px;
+    line-height: 22px;
+}
+.subscription_box h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 110%;
+    color: #fff;
+}
+.subscription_box p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.subscription_box form input.form-input {
+    min-width: 380px;
+    max-width: 380px;
+    line-height: 48px;
+    padding: 0 25px;
+    border: 1px solid #fff;
+    background: transparent;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #fff;
+}
+.subscription_box form a.btn {
+    margin-left: 10px;
+    background: #fff;
+    text-transform: uppercase;
+    color: #222;
+    border-radius: 5px;
+    line-height: 48px;
+    font-size: 14px;
+    font-family: "Rubik",sans-serif;
+    padding: 0 38px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.subscription_box form {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subscription_box form input::placeholder {
+    color: #fff;
+}
+footer {
+    background-color: #f9f9fd;
+    text-align: center;
+        font-size: 14px;
+    line-height: 24px;
+    padding: 5px 0px;
+}
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    justify-content: right;
+}
+.hamburger-icon{
+    display: none;
+}
+.contact_title {
+    margin-top: 40px;
+    text-align: center;
+}
+.contact_title p {
+    font-family: 'Merriweather', serif;
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-style: italic;
+}
+.map-form-switcher {
+    display: inline-block;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border-radius: 40px;
+    position: relative;
+    /* top: -40px; */
+    z-index: 4;
+}
+.map-form-switcher .switcher-bg {
+    background: #fff;
+    padding: 15px 36px;
+    border-radius: inherit;
+}
+.map-form-switcher .switcher-text {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    top: 2px;
+}
+.map-form-switcher .switcher-toggle {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 22px;
+    border: 1px solid #e8ecef;
+    border-radius: 25px;
+    background: #f6f8f9;
+    width: 70px;
+    height: 35px;
+    position: relative;
+    left: -4px;
+    cursor: pointer;
+    -webkit-transition: all 0.45s linear;
+    -moz-transition: all 0.45s linear;
+    -ms-transition: all 0.45s linear;
+    -o-transition: all 0.45s linear;
+    transition: all 0.45s linear;
+}
+.map-form-switcher .switcher-toggle .icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid #e8ecef;
+    background: #fff;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.b-map-form-holder {
+    position: relative;
+    text-align: center;
+}
+.input-form {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #fff !important;
+    margin-bottom: 25px !important;
+    padding: 10px !important;
+    width: 100%;
+    margin: 10px 0px 0 0;
+    background: transparent;
+    color: #fff;
+    height: 40px;
+    font-size: 13px;
+}
+.input-form::placeholder {
+    color: #fff;
+}
+.b-contact-form form {
+    padding: 42px 7.8% 18px;
+    margin: 0 auto 25px;
+    dominant-baseline: initial;
+    display: block;
+    max-width: 555px;
+    border: 6px solid #eeeeee;
+}
+.b-contact-form {
+    background-color: rgb(45 131 180 / 90%);
+}
+.input-submit {
+    margin-bottom: 80px;
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    border-radius: 0 !important;
+    padding: 12px 27px !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    justify-content: left;
+    display: flex;
+}
+form textarea.input-form {
+    min-height: 153px;
+}
 
 
 .container {
@@ -202,4 +498,117 @@ header .logo img {
   .container {
     max-width: 1140px;
   }
+}
+
+
+
+@media (max-width: 992px) {
+.single_service {
+    width: 50%;
+}
+.hamburger-icon{
+    display: block;
+}
+.menu ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    text-align: left;
+}
+.menu ul a {
+    padding: 15px 0px;
+    margin:0;
+        display: block;
+}
+.menu ul li {
+    border-bottom: 1px solid #f1f1f1;
+    margin: 0px 30px;
+}
+a.hamburger-icon {
+    margin: 0;
+}
+}
+
+
+@media (max-width: 767px) {
+.subscription_box form {
+    display: block;
+}
+.subscription_box form input.form-input {
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+.client_say {
+    display: block;
+}
+.item-client {
+    margin: 0 0px 30px;
+    display: block;
+    width: 100%;
+    padding: 20px 25px;
+}
+.client_details {
+    width: 100%;
+    text-align: center;
+}
+.client_img {
+    margin: 0 auto;
+}
+.client_details h2 {
+    margin-top: 15px;
+    font-size: 20px !important;
+    text-align: center;
+}
+.under_banner {
+    flex-direction: column-reverse;
+    text-align: center;
+        padding: 30px 0px;
+}
+.banner_content {
+    max-width: 600px;
+    width: 100%;
+}
+.under_banner h2 {
+    font-size: 35px;
+}
+.banner_content p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-me-btn {
+    width: 160px;
+    height: 45px;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.social_media ul {
+    justify-content: center;
+}
+.developer_pic img {
+    max-width: 100%;
+}
+.developer_pic {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.services h2, .testimonial_home h2 {
+    font-size: 30px;
+}
+.feature_item h4 {
+    font-size: 18px;
+}
+.subscription_box h2 {
+    font-size: 30px;
+}
+.subscription_box {
+    padding: 110px 20px;
+}
 }

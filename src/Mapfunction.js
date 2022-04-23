@@ -5,7 +5,8 @@ const Mapfunction = () => {
         {name:"akash",email:"akash@gmail.com",phone:888},
         {name:"rupali",email:"rupali@gmail.com",phone:1234},
         {name:"mahesh",email:"mahesh@gmail.com",phone:5434},
-        {name:"annpurna",email:"annpurna@gmail.com",phone:12547},        
+        {name:"annpurna",email:"annpurna@gmail.com",phone:12547},
+        {name:"purvi",email:"purvi@gmail.com",phone:12345}        
     ];
     return (
         <div className='container'>

@@ -19,7 +19,8 @@ const App = () => {
         <Route path="/about" exact   element={<About />} /> 
         <Route path="*" element={<NotFound/>}/>
         <Route path="/map" element={<Mapfunction />} />
-        <Route path="/croping" element={<Imagecrop />} />
+        <Route path="/contact" element={<Contact />} />
+        
         
     
        </Routes>
