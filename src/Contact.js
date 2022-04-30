@@ -38,7 +38,8 @@ tempor incididuntlabore duis irure dolor in sed reprehenderit.</p>
 
 
         <div className= { (toggleclas) ? " b-map-form-holder map-active" :" b-map-form-holder" }>
-            <div className="map-form-switcher container">
+        <div className="container">
+            <div className="map-form-switcher">
                 <div className="switcher-bg">
 
                     <span className="switcher-text text-uppercase">Form</span>
@@ -49,13 +50,13 @@ tempor incididuntlabore duis irure dolor in sed reprehenderit.</p>
                     <span className="switcher-text text-uppercase">Map</span>
                 </div>
             </div>
-
+</div>
             <div className='b-map'>
                 
     
             {/* <Iframe iframe={iframe} /> */}
             <Iframe iframe={demos["soundcloud"]} allow="autoplay" />
-            ,
+            
              </div>
             <div className='b-contact-form'>
                 <div className='container'>

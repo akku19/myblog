@@ -370,7 +370,7 @@ footer {
     background-clip: padding-box;
     border-radius: 40px;
     position: relative;
-    /* top: -40px; */
+     top: -40px; 
     z-index: 4;
 }
 .map-form-switcher .switcher-bg {
@@ -422,6 +422,7 @@ footer {
 .b-map-form-holder {
     position: relative;
     text-align: center;
+        margin-top: 50px;
 }
 .input-form {
     display: block;
@@ -442,17 +443,25 @@ footer {
 }
 .b-contact-form form {
     padding: 42px 7.8% 18px;
-    margin: 0 auto 25px;
+    margin: 75px auto 25px;
     dominant-baseline: initial;
     display: block;
     max-width: 555px;
     border: 6px solid #eeeeee;
 }
 .b-contact-form {
+    position: absolute;
     background-color: rgb(45 131 180 / 90%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+        height: 100%;
+    width: 100%;
+    min-height: 650px;
 }
 .input-submit {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     background: transparent !important;
     border: 2px solid #fff !important;
     border-radius: 0 !important;
@@ -466,6 +475,212 @@ footer {
 form textarea.input-form {
     min-height: 153px;
 }
+.b-map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.map-active .b-contact-form {
+    display: none;
+}
+.map-active .map-form-switcher .switcher-toggle .icon {
+    left: auto;
+    right: 3px;
+}
+.contact_title h2 {
+    color: #00a0e3;
+}
+.b-map iframe {
+    display: block;
+}
+.mission-about {
+    display: flex;
+    width: 100%;
+        align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.mission-txt, .mission-img{
+    width: 50%;
+}
+.mission-txt h2 {
+    color: #00a0e3;
+    margin-bottom: 20px;
+}
+.mission-txt div {
+    max-width: 510px;
+}
+.mission-img {
+    text-align: center;
+    position: relative;
+}
+.brd {
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #f6f6f6;
+    background: transparent;
+}
+.cut {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 100px;
+        left: 0;
+    z-index: 3;
+}
+.img-cut img {
+    z-index: 1;
+    position: relative;
+        display: block;
+    width: 100%;
+}
+.projects_done {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    width: 100%;
+        margin-top: 100px;
+}
+.projects_content, .projects_steps {
+    width: 50%;
+}
+.b-services-item {
+    min-height: 160px;
+    padding: 0px 5% 0px 5%;
+}
+.b-services-item .services-icon {
+    float: left;
+    margin-right: 25px;
+    padding-top: 15px;
+}
+.b-work-steps .b-services-item .services-icon {
+    position: relative;
+    padding: 0;
+}
+.b-work-steps .b-services-item .services-icon:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.5px;
+    margin-top: 23px;
+    border-left: 1px dotted #7a7a7a;
+}
+.b-work-steps .b-services-item .services-icon.work-active .circle-0, 
+.b-work-steps .b-services-item:hover .circle-0 {
+    background: #404040;
+}
+.b-work-steps .b-services-item .services-icon .circle-0 {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #eeeeee;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+.b-work-steps .b-services-item .services-icon .circle-1 {
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+    background: #a1c3d7;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+.b-work-steps .b-services-item .services-icon .circle-2 {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    background: #2d83b4;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+.b-services-item .services-text {
+    position: relative;
+    overflow: hidden;
+}
+.b-services-item .services-text .services-title {
+    position: relative;
+    padding: 15px 0 18px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.b-services-item .services-text .services-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 1px;
+    background-color: #2d83b4
+}
+.b-work-steps .b-services-item .services-text p {
+    margin-top: -10px;
+}
+.projects_content h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #2b2a29;
+    font-weight: 700;
+    max-width: 300px;
+}
+.projects_content p {
+    max-width: 300px;
+}
+.service-page .single_service {
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.service-page .feature_item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    text-align: left;
+}
+.service-page .feature_item img {
+    width: 35%;
+}
+.service-page .feat_part {
+    width: 65%;
+}
+.service-page .feature_item h4 {
+    padding: 0px 15px;
+}
+.service-page {
+    margin-top: 40px;
+}
+.akash-img img {
+    width: 100%;
+    display: block;
+}
+
 
 
 .container {
@@ -536,6 +751,39 @@ a.hamburger-icon {
 
 
 @media (max-width: 767px) {
+.about-akash, .mission-about, .projects_done {
+    display: block;
+}
+.akash-img, .akash-details {
+    flex: 100%;
+    max-width: 100%;
+}
+.akash-details {
+    margin-left: 0;
+    margin-top: 20px;
+}
+.mission-txt, .mission-img, .projects_content, .projects_steps {
+    width: 100%;
+}
+.projects_done {
+    margin-top: 70px;
+}
+.projects_content h2, .projects_content p {
+    max-width: 100%;
+}
+.projects_steps {
+    margin-top: 40px;
+}
+.brd{
+    display: none;
+}    
+.service-page .feature_item {
+    display: block;
+} 
+.service-page .feature_item img,
+.service-page .feat_part {
+    width: 100%;
+}   
 .subscription_box form {
     display: block;
 }

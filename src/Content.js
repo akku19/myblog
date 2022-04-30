@@ -64,7 +64,7 @@ is in beast beginning signs open god you're gathering ithe</p>
        <div className="main_services clearfix">
 
           <div className="single_service">
-             <div class="feature_item">
+             <div className="feature_item">
                 <img src={web} alt="Web Development" />
                 <h4>Web Development</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sollicitudin pellentesque</p>
@@ -72,7 +72,7 @@ is in beast beginning signs open god you're gathering ithe</p>
           </div>
 
           <div className="single_service">
-             <div class="feature_item">
+             <div className="feature_item">
                 <img src={design} alt="UI/UX design" />
                 <h4>UI/UX design</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sollicitudin pellentesque</p>
@@ -80,7 +80,7 @@ is in beast beginning signs open god you're gathering ithe</p>
           </div>
 
           <div className="single_service">
-             <div class="feature_item">
+             <div className="feature_item">
                 <img src={server} alt="Server Configuration" />
                 <h4>Server Configuration</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sollicitudin pellentesque</p>
@@ -88,7 +88,7 @@ is in beast beginning signs open god you're gathering ithe</p>
           </div>
 
           <div className="single_service">
-             <div class="feature_item">
+             <div className="feature_item">
                 <img src={speed} alt="Seo Optimize" />
                 <h4>Speed Optimize</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sollicitudin pellentesque</p>

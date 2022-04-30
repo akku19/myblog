@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Route, Router,Routes,Link }  from 'react-router-dom'
 import About from './About';
+import Services from './Services';
 import Contact from './Contact';
 import NotFound from './NotFound'
 import Header from './Header';
@@ -18,7 +19,7 @@ const App = () => {
         <Route path="/" exact element={<Content />} /> 
         <Route path="/about" exact   element={<About />} /> 
         <Route path="*" element={<NotFound/>}/>
-        <Route path="/map" element={<Mapfunction />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         
         
