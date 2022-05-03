@@ -1,9 +1,17 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import Iframe from 'react-iframe';
 import Footer from './Footer'
 
-const Contact = () => {
+const Contact = () => {    
+    const [formdata,setformdata] = useState([]);
 
+    const filddata = (e)=>{
+       console.log('data',e);
+    }
+
+    const formsubmit = (e)=>{
+         
+    }
     const demos = {
         soundcloud:
           '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.754763691852!2d75.46976831495309!3d22.211424235369797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39626ee52edda903%3A0x1ed2db57bc871643!2sJhulelal%20Mandir%2C%20Near%20Old%20Bus%20Stand%2C%20Patel%20Colony%2C%20Dhamnod%2C%20Madhya%20Pradesh%20454552!5e0!3m2!1sen!2sin!4v1650613388025!5m2!1sen!2sin" width="100%" height="650" style="border:0;" allowfullscreen=""></iframe>',
@@ -62,11 +70,11 @@ tempor incididuntlabore duis irure dolor in sed reprehenderit.</p>
             <div className='b-contact-form'>
                 <div className='container'>
                     <form action='#' method='post'>
-                        <input type="text" className='input-form' placeholder='Name' />
-                        <input type="email" className='input-form' placeholder='E-mail' />  
-                        <input type="text" className='input-form' placeholder='Subject' />  
-                        <textarea cols="40" rows="10"className='input-form' placeholder='Message'></textarea>
-                        <input type="submit" className='input-submit' value='Send Message' />
+                        <input type="text" className='input-form' placeholder='Name' onClick={filddata()}/>
+                        <input type="email" className='input-form' placeholder='E-mail'  onClick={filddata()} />  
+                        <input type="text" className='input-form' placeholder='Subject'  onClick={filddata()} />  
+                        <textarea cols="40" rows="10"className='input-form' placeholder='Message'  onClick={filddata()}></textarea>
+                        <input type="submit" className='input-submit' value='Send Message'  onClick={formsubmit()}/>
                     </form>
                 </div>
             </div>
