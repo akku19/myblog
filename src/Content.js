@@ -18,7 +18,7 @@ function Content() {
         <div className="container">
          <div className="under_banner">
            <div className="banner_content">
-           <h3>My Name is <span>Lorem Ipsum</span></h3>
+           <h3>My Name is <span>Akash sen</span></h3>
            <h2>I am a Creative <span>Web Developer.</span></h2>
            <p>I'm working on a professional, visually sophisticated and technologically proficeint, responsive and multi-functional Wordpress Website imroz. </p>
            <a href="https://wa.me/8770562180" className="contact-me-btn" target="_blank">Contact Me</a>
