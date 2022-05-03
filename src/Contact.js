@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Iframe from 'react-iframe';
+import Footer from './Footer'
 
 const Contact = () => {
 
@@ -70,7 +71,10 @@ tempor incididuntlabore duis irure dolor in sed reprehenderit.</p>
                 </div>
             </div>
         </div>
+        
         </div>
+
+        
     )
 }
 

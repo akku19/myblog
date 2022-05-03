@@ -10,7 +10,9 @@ function Header() {
   	 <div className="container">
   	 <header className="main_header">
       <div className="logo">
+      <a href="/">
           <img src={logo} className="" alt="logo" />
+          </a>
       </div>
       <div className="menu">     
               <Navigation /> 

@@ -3,6 +3,7 @@ import web from './images/web-development.png';
 import design from './images/ui-ux-design.png';
 import server from './images/server-configuration.png';
 import speed from './images/speed-optimize.png';
+import Footer from './Footer'
 
 const Services = () => {
 
@@ -71,7 +72,10 @@ const Services = () => {
                   </div>
               </div>
            </div>
+            <Footer />
         </div>
+
+       
     )
 }
 

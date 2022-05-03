@@ -1,17 +1,21 @@
-import React ,{useState} from 'react';
+import React, { useState, useRef } from 'react';
 import { Route, Router,Routes,Link }  from 'react-router-dom'
 import hamburger from './images/hamburger_icon.svg';
 
 
 const Navigation = () => {
  
-   
+   const [isActive, setActive] = useState("false");
+  const ToggleClass = () => {
+    setActive(!isActive); 
+   }
+
     return (
         <>
         <a className="hamburger-icon">
-          <img src={hamburger} />
+          <img onClick={ToggleClass} src={hamburger} />
         </a>
-        <ul>
+        <ul className={isActive ? "inactive" : "active"}>
         <li>
         <Link to="/">Home </Link>
         </li>
