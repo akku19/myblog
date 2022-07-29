@@ -1,10 +1,12 @@
 import about from './about.jpg';
 import about1 from './images/about1.jpg';
 import React from 'react'
+import Footer from './Footer'
 
 const About = () => {
     return (
-    	<div className="container">
+    	<div className="container1">
+        <div className="container">
         <div className="about-akash">
             <div className="akash-img">
                <img src={about} className="" alt="about" />  
@@ -21,9 +23,13 @@ const About = () => {
 				anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
 
             </div>
+        </div>    
         </div>
 
+        
+           <div className="container">
         <div className="mission-about">
+     
             <div className="mission-txt">
             <div>
                 <h3>We grow brands</h3>
@@ -43,9 +49,12 @@ const About = () => {
                     <img src={about1} />
                 </div>
             </div>    
+        </div>    
         </div>
 
 
+<div className="gradiant_co">
+        <div className=" container">
         <div className="projects_done">
           <div className="projects_content">
              <h2>How Projects Done! The Process</h2>
@@ -53,7 +62,7 @@ const About = () => {
              laudantium totam labore dolore magna 
              aliquat enim ad minim veniam quis nost rctation ullamco laboris aliquip consequat sed ipsum dolore.</p>
              <a href="#" className="get_in_touch">
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
               Get In Touch</a>
           </div>
           <div className="projects_steps">
@@ -153,10 +162,16 @@ const About = () => {
         </div>
         </div>
 </div>
+ </div>
+ </div>
           </div>
+          <Footer />
         </div>
 
         </div>
+
+        
+       
     )
 }
 

@@ -550,7 +550,8 @@ footer {
     align-content: center;
     vertical-align: middle;
     width: 100%;
-        margin-top: 100px;
+    margin-top: 100px;
+        padding: 60px 0px;
 }
 .projects_content, .projects_steps {
     width: 50%;
@@ -626,6 +627,7 @@ footer {
     padding: 15px 0 18px;
     font-weight: bold;
     letter-spacing: 1.2px;
+    color: #fff;
 }
 .b-services-item .services-text .services-title:before {
     content: '';
@@ -639,17 +641,22 @@ footer {
 }
 .b-work-steps .b-services-item .services-text p {
     margin-top: -10px;
+    color: #fff;
 }
 .projects_content h2 {
     font-size: 40px;
     line-height: 40px;
     font-family: "Poppins", sans-serif;
-    color: #2b2a29;
+    color: #fff;
     font-weight: 700;
     max-width: 300px;
 }
 .projects_content p {
     max-width: 300px;
+     color: #fff;
+}
+a.get_in_touch {
+    color: #fff;
 }
 .service-page .single_service {
     width: 100%;
@@ -680,7 +687,9 @@ footer {
     width: 100%;
     display: block;
 }
-
+.gradiant_co {
+    background-image: linear-gradient(to left, #000 50%, #00a0e3 50%);
+}
 
 
 .container {
@@ -724,6 +733,10 @@ footer {
 .hamburger-icon{
     display: block;
 }
+ul.active {
+    display: block !important;
+}
+
 .menu ul {
     display: none;
     position: absolute;
@@ -746,6 +759,9 @@ footer {
 }
 a.hamburger-icon {
     margin: 0;
+}
+.gradiant_co {
+    background-image: linear-gradient(to top, #000 30%, #00a0e3 70%);
 }
 }
 

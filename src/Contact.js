@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Iframe from 'react-iframe';
+import Footer from './Footer'
 
 const Contact = () => {    
     const [formdata,setformdata] = useState([]);
@@ -103,7 +104,10 @@ tempor incididuntlabore duis irure dolor in sed reprehenderit.</p>
                 </div>
             </div>
         </div>
+        
         </div>
+
+        
     )
 }
 
