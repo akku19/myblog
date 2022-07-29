@@ -3,13 +3,37 @@ import Iframe from 'react-iframe';
 
 const Contact = () => {    
     const [formdata,setformdata] = useState([]);
-
+    const [formerror,setformerror] = useState([])
+    const [formsubmits,setformsubmit] = useState(false)
+     
     const filddata = (e)=>{
-       console.log('data',e);
+
+        e.preventDefault();
+       console.log('data',e.target);
+       let inputname = e.target.name;
+       let formvalue = e.target.value;
+       
+       setformdata({...formdata ,
+        [inputname]: formvalue
+      })
+
+    
+
+     
     }
 
     const formsubmit = (e)=>{
-         
+       
+        if(formdata.fname=='fname'){
+            if(formdata.fname==''){
+              setformerror({...formerror,fname:'please enter fname'})
+              setformsubmit(false)
+            }else{
+              setformsubmit(true)
+            }
+         }
+         console.log(formerror);
+       // console.log(formdata);
     }
     const demos = {
         soundcloud:
@@ -68,13 +92,14 @@ tempor incididuntlabore duis irure dolor in sed reprehenderit.</p>
              </div>
             <div className='b-contact-form'>
                 <div className='container'>
-                    <form action='#' method='post'>
-                        <input type="text" className='input-form' placeholder='Name' onClick={filddata()}/>
-                        <input type="email" className='input-form' placeholder='E-mail'  onClick={filddata()} />  
-                        <input type="text" className='input-form' placeholder='Subject'  onClick={filddata()} />  
-                        <textarea cols="40" rows="10"className='input-form' placeholder='Message'  onClick={filddata()}></textarea>
-                        <input type="submit" className='input-submit' value='Send Message'  onClick={formsubmit()}/>
-                    </form>
+                  
+                        <input type="text" name="fname" className='input-form' placeholder='Name' onChange={(e)=>filddata(e)}/>
+                        {(formerror.fname) ? formerror.fname : "" }
+                        <input type="email" name='email' className='input-form' placeholder='E-mail'  onChange={(e)=>filddata(e)} />  
+                        <input type="text" name='subject' className='input-form' placeholder='Subject' onChange={(e)=>filddata(e)} />  
+                        <textarea cols="40" name='message' rows="10"className='input-form' placeholder='Message' onChange={(e)=>filddata(e)}></textarea>
+                        <input type="submit" className='input-submit' value='Send Message'  onClick={(e)=>formsubmit()} />
+                  
                 </div>
             </div>
         </div>
