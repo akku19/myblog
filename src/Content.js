@@ -101,7 +101,7 @@ is in beast beginning signs open god you're gathering ithe</p>
       <div className="testimonial_home container">
           <h2>Client say about me</h2>
           <p className="sub_service">Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
-beginning signs open god you're gathering ithe</p>
+beginning signs open god you're gathering the</p>
 
         <div className="client_say">
           <div className="item-client">
