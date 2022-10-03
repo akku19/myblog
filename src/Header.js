@@ -2,6 +2,7 @@ import logo from './logo.png';
 import React from "react";
 import ReactDOM from "react-dom";
 import Navigation from './Navigation';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -10,9 +11,9 @@ function Header() {
   	 <div className="container">
   	 <header className="main_header">
       <div className="logo">
-      <a href="/">
+     <Link to='/'>
           <img src={logo} className="" alt="logo" />
-          </a>
+          </Link>
       </div>
       <div className="menu">     
               <Navigation /> 
