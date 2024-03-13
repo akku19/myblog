@@ -26,7 +26,7 @@ function Content() {
 	               </a>
                </li>
                <li>
-	               <a href="">
+	               <a href="https://www.linkedin.com/in/akash-sen-7bb874b8/" target='_blank'>
 	               <FontAwesomeIcon icon={faLinkedin} />
 	               </a>
                </li>
@@ -36,7 +36,7 @@ function Content() {
 	               </a>
                </li>
                <li>
-	               <a href="">
+	               <a href={`https://wa.me/8770562180`} target='_blank'>
 	               <FontAwesomeIcon icon={faWhatsapp} />
 	               </a>
                </li>
